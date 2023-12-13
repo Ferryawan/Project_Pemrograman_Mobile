@@ -78,27 +78,27 @@ class _SignUpFormState extends State<SignUpForm> {
               decoration: const InputDecoration(hintText: 'Username'),
             ),
           ),
-          TextButton(
-            style: ButtonStyle(
-              foregroundColor: MaterialStateProperty.resolveWith((states) {
-                return states.contains(MaterialState.disabled)
-                    ? null
-                    : Colors.white;
-              }),
-              backgroundColor: MaterialStateProperty.resolveWith((states) {
-                return states.contains(MaterialState.disabled)
-                    ? null
-                    : Colors.blue;
-              }),
-            ),
+          // TextButton(
+          //   style: ButtonStyle(
+          //     foregroundColor: MaterialStateProperty.resolveWith((states) {
+          //       return states.contains(MaterialState.disabled)
+          //           ? null
+          //           : Colors.white;
+          //     }),
+          //     backgroundColor: MaterialStateProperty.resolveWith((states) {
+          //       return states.contains(MaterialState.disabled)
+          //           ? null
+          //           : Colors.blue;
+          //     }),
+          //   ),
             // onPressed: () {
             //   Navigator.push(
             //     context,
             //     MaterialPageRoute(builder: (context) => ()),
             //   );
             // },
-            child: const Text('Sign up'),
-          ),
+            // child: const Text('Sign up'),
+          // ),
         ],
       ),
     );
